@@ -19,7 +19,7 @@
 }
 
 .menu {
-    background: #ffd6ff;
+    background: #E7C6FF;
     padding: 5px 15px;
     text-align: left;
 }
@@ -34,5 +34,77 @@ h2 {
     font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
+}
+
+body {
+    text-align: center;
+    background-color:#ffd6ff ;
+}
+
+.agrupar {
+    border: 1px solid black;
+    background: #C8B6FF;
+    width: 900px;
+    margin: 20px auto ;
+
+}
+
+.cabecera {
+    background-color: #B8C0FF;
+    border: 3px solid #FFD6FF;
+    padding: 20px;
+}
+
+.seccion {
+    width: 600px;
+    margin: 10px;
+    float: left;
+    border: 2px solid ;
+}
+
+#idarticulo1, #idarticulo2 {
+    background: #BBD0FF;
+    border: 3px solid #FFD6FF;
+    padding: 20px ;
+
+    
+}
+
+article footer {  /*se alinea del articulo... del padre*/
+    text-align: right;
+    color: #bc6c25;
+}
+
+.referencias {
+    width: 260px;
+    float: right;
+    margin: 20px 5px;
+    background-color: #ffc8dd;
+    margin: 35px 7px;
+    padding-left: 2px;
+}
+
+.pie {  /*el pie de la pagina tiene que tener siempre el estilo clear both*/
+
+    clear: both;
+}
+
+blockquote {
+    border: 2px solid #FFD6FF;
+    padding: 8px;
+    background: #ffe5ec;
+    width: 150px;
+}
+
+img {
+    width: 500px;
+    height: 250px;
+    margin: auto auto;
+}
+
+.img2{
+    width: 500px;
+    height: 350px;
+    margin: auto auto;
 }
 
