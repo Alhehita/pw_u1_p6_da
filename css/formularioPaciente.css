@@ -4,14 +4,10 @@
     align-items: center;
 }
 
-button{
-    background-color:lightpink;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 5px ;
-    border: none;
-    width:70px; 
-    height:25px;
-
+h1{
+    color: rgb(192, 63, 63);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 p:before{
@@ -26,7 +22,7 @@ p:before{
 input{
     border: none;
     width: 200px ;
-    border-bottom: 1px solid #D4A373 ;
+    border-bottom: 1px hidden #D4A373 ;
     background: none;
 }
 
@@ -55,4 +51,24 @@ body {
     padding: 15px 15px ;
     box-shadow: 0 0 40px 5px  #8a817c;
 } 
+
+button{
+    background-color:rgba(211, 127, 140, 0.938);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px ;
+    border: none;
+    width:80px; 
+    height:30px;
+    color: rgb(255, 255, 255);
+
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px 
+}
+
+
 

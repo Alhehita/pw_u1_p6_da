@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin-bottom: 5px ;
+    }
+
+.form {      
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: 70px;
+
+    
+
+    }
+
+input{
+    height: 25px ;
+    width: 225px ;
+  
+   color: #141414c2;
+   border-color: #02020254;
+   border-width: 1px ;
+   border-radius: 3px ;
+
+   }
+
+.formulario{
+  
+    outline: none; 
+    border-bottom: 1.5px solid #02020254;
+}
+
+.nombre{
+    grid-column: span 2;
+}
+
+.nombre input{
+    width: 475px ;
+
+}
+
